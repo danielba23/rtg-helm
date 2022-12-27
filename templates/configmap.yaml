@@ -1,0 +1,14 @@
+apiVersion: v1
+data:
+  app.config: |
+   <!DOCTYPE html>
+    <html lang="en">
+      <body>
+        <h1>Loaded from config map!</h1>
+        <img src="https://yt3.ggpht.com/ytc/AMLnZu_NGlfz0a2nH723nKozGQJcVgQ6FoApNAiv6dTaow=s900-c-k-c0x00ffffff-no-rj">
+      </body>
+    </html>  
+kind: ConfigMap
+metadata:
+  name: nginx
+  namespace: default
